@@ -1,0 +1,27 @@
+html, body {
+    overflow: hidden;
+    margin: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.canvas {
+  border-top: 2px solid black;
+}
+
+.toolbar input {
+ margin-right: 1em;
+}
+
+.toolbar {
+  background: #eaeaea;
+  padding: 0.5em;
+  font-family: Arial, serif;
+}
+
+#redo {
+  margin-right: 1em;
+}
